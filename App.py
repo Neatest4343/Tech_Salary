@@ -6,7 +6,7 @@ import joblib
 model = joblib.load('model.joblib2')
 
 # Define the input fields
-st.title('Malaikas Tech Salary Prediction App')
+st.title('Ifon Tech Salary Prediction App')
 
 st.header('Enter the details:')
 work_year = st.number_input('Work Year', min_value=1980, max_value=2024, value=2023)
